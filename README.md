@@ -28,6 +28,7 @@ This project demonstrates how to turn on a LED using a custom startup file and l
 5. Git Bash
 
 ### Building and Running the Project
+
 #### Git Bash Terminal Commands
 ```
 make All
@@ -40,28 +41,14 @@ make Load
 2. Enter "localhost" as host name with "4444" as Port
 
 #### Putty Commands
+
 ```
-1. reset init
-
-2. flash write_image erase final.elf
-
-3. reset halt
-
+reset init
+flash write_image erase final.elf
+reset halt
 resume
 ```
-## License
-
-[Specify the license under which you are releasing your project.]
 
 ## Acknowledgments
 
 - [OPenOCD General Commands](https://openocd.org/doc/html/General-Commands.html)
-- 
-
-## Contact
-
-[Provide your contact information, such as your name and email address, so that interested users can reach out to you.]
-
-```
-
-Feel free to customize the template based on your project's specific details and requirements. The README should provide enough information for users to understand how to set up, use, and contribute to your project.
